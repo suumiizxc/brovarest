@@ -1,7 +1,7 @@
 _id: req_1bce90b8fbd34218828b452a4791cb8c
 type: Request
 parentId: wrk_634546ce32a24c6582179aee5e6ceedd
-modified: 1694719656537
+modified: 1694721708263
 created: 1694715972811
 url: "{{ _.localhost }}/api/users/create-training-class"
 name: Create training class

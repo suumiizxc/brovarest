@@ -1,11 +1,11 @@
 _id: env_e3e9a08f51ebab368d848d671e54a5a6f39a30aa
 type: Environment
 parentId: wrk_634546ce32a24c6582179aee5e6ceedd
-modified: 1694717976842
+modified: 1694725884207
 created: 1694705820296
 name: Base Environment
 data:
-  localhost: 192.168.1.39:3000
+  localhost: https://orca-app-u2r3t.ondigitalocean.app
 dataPropertyOrder:
   "&":
     - localhost
