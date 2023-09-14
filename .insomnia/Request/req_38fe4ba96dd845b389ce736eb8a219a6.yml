@@ -1,0 +1,36 @@
+_id: req_38fe4ba96dd845b389ce736eb8a219a6
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694721435448
+created: 1694721395914
+url: "{{ _.localhost }}/api/users/update-training-class"
+name: Update training class
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 5920223,
+    	"name" : "test class v2",
+    	"started_at" : "2023-09-30T12:58:53.000Z",
+    	"ended_at" : "2023-12-12T12:58:53.000Z"
+    }
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 659fb95a-0867-4e55-bb1e-d1fd4bd04d57
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2e912c38394ed0ad79b8259eb4db0d
+authentication: {}
+metaSortKey: -1694713802054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
