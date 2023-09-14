@@ -1,0 +1,35 @@
+_id: req_1bce90b8fbd34218828b452a4791cb8c
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694717442094
+created: 1694715972811
+url: "{{ _.localhost }}/api/users/create-training-class"
+name: Create training class
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "test class",
+    	"started_at" : "2023-09-14T12:58:53.000Z",
+    	"ended_at" : "2023-09-20T12:58:53.000Z"
+    }
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 009526ac-ba63-4f46-914f-8a7106c59d4f
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2e912c38394ed0ad79b8259eb4db0d
+authentication: {}
+metaSortKey: -1694715972811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

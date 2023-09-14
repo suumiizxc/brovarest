@@ -1,0 +1,25 @@
+_id: req_a9d7220e8cda48fda4aeef8da18230aa
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694713505001
+created: 1694711631297
+url: "{{ _.localhost }}/api/users/get-profile"
+name: Get profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_86c61cc83afe4455a128c444ba3c67cd
+    name: Authorization
+    value: 7a722650-d5f0-4d81-a1fb-0e2539ebfa95
+    description: ""
+authentication: {}
+metaSortKey: -1694711631297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

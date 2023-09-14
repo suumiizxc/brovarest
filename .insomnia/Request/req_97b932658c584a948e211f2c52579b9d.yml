@@ -1,0 +1,30 @@
+_id: req_97b932658c584a948e211f2c52579b9d
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694716403959
+created: 1694709496831
+url: "{{ _.localhost }}/api/users/login"
+name: Login user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login_name" : "sumiya",
+    	"login_password" : "test123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62a64d3bc2b44518900d657936fdb0e8
+authentication: {}
+metaSortKey: -1693667562213.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

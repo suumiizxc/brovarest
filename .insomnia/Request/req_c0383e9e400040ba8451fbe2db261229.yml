@@ -1,0 +1,29 @@
+_id: req_c0383e9e400040ba8451fbe2db261229
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694714319255
+created: 1694705823369
+url: "{{ _.localhost }}/api/users/trainings"
+name: Training list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_59b581d0b0f846f3b5d68475f21363b8
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_7ae1a9bb68594df2937d5cdfa1413312
+    name: limit
+    value: "10"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1694705823369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

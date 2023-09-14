@@ -1,0 +1,25 @@
+_id: req_a55a5007f5414fb0854cb8eb3e696b51
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694717494968
+created: 1694717401639
+url: "{{ _.localhost }}/api/users/get-training-class"
+name: Get training class list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_887a31822ad54a198a967eb1ab20f9e3
+    name: Authorization
+    value: 009526ac-ba63-4f46-914f-8a7106c59d4f
+    description: ""
+authentication: {}
+metaSortKey: -1694717401639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

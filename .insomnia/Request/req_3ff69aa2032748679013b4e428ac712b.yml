@@ -1,0 +1,31 @@
+_id: req_3ff69aa2032748679013b4e428ac712b
+type: Request
+parentId: wrk_634546ce32a24c6582179aee5e6ceedd
+modified: 1694711640703
+created: 1694705821699
+url: "{{ _.localhost }}/api/users/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Sumiyadorj chinzorig",
+    	"login_name" : "sumiya",
+    	"login_password" : "test123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62a64d3bc2b44518900d657936fdb0e8
+authentication: {}
+metaSortKey: -1694705821699
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
