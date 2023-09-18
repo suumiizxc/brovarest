@@ -1,0 +1,33 @@
+_id: req_fbf2c25dea664e8b8eb533754ee998d6
+type: Request
+parentId: fld_12a5bd10440e4cf4a4d69e971685cd08
+modified: 1694883815047
+created: 1694883736550
+url: "{{ _.localhost }}/api/users/delete-training-lesson-package"
+name: Delete training lesson package
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 5944242
+    }
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 72a991c3-ab9e-4b59-b4d8-4c660c7f1926
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2e912c38394ed0ad79b8259eb4db0d
+authentication: {}
+metaSortKey: -1694800503075.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

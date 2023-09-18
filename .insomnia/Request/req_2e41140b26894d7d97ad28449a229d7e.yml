@@ -1,0 +1,34 @@
+_id: req_2e41140b26894d7d97ad28449a229d7e
+type: Request
+parentId: fld_12a5bd10440e4cf4a4d69e971685cd08
+modified: 1694883811686
+created: 1694883776563
+url: "{{ _.localhost }}/api/users/update-training-lesson-package"
+name: Update training lesson package
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" :5944244,
+    	"name" : "Test package v2"
+    }
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 72a991c3-ab9e-4b59-b4d8-4c660c7f1926
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2e912c38394ed0ad79b8259eb4db0d
+authentication: {}
+metaSortKey: -1694800503088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

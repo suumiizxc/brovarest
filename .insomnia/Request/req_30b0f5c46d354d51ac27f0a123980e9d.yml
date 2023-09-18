@@ -1,0 +1,35 @@
+_id: req_30b0f5c46d354d51ac27f0a123980e9d
+type: Request
+parentId: fld_ba5d9cce132b4dd292e1ce0ba1dc95b9
+modified: 1694884937470
+created: 1694884785889
+url: "{{ _.localhost }}/api/users/create-training-lesson"
+name: Create training lesson
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Test lesson",
+    	"package_id" : 5944244,
+    	"duration" : 10
+    }
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 72a991c3-ab9e-4b59-b4d8-4c660c7f1926
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2e912c38394ed0ad79b8259eb4db0d
+authentication: {}
+metaSortKey: -1694842345297.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

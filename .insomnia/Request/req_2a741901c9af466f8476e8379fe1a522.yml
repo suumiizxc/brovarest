@@ -1,0 +1,25 @@
+_id: req_2a741901c9af466f8476e8379fe1a522
+type: Request
+parentId: fld_12a5bd10440e4cf4a4d69e971685cd08
+modified: 1694883615082
+created: 1694883569825
+url: "{{ _.localhost }}/api/users/get-training-lesson-package"
+name: Get training lesson package
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 72a991c3-ab9e-4b59-b4d8-4c660c7f1926
+    description: ""
+authentication: {}
+metaSortKey: -1694800503050.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

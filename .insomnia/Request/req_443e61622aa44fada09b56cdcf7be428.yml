@@ -1,0 +1,25 @@
+_id: req_443e61622aa44fada09b56cdcf7be428
+type: Request
+parentId: fld_ba5d9cce132b4dd292e1ce0ba1dc95b9
+modified: 1695007054450
+created: 1694885910901
+url: "{{ _.localhost }}/api/users/get-training-lesson"
+name: Get training lesson
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8665c03cffd642ffbfc41512e378cc3e
+    name: Authorization
+    value: 72a0a5ac-23c9-4215-a16d-820cbbedb7cc
+    description: ""
+authentication: {}
+metaSortKey: -1694842199527.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
