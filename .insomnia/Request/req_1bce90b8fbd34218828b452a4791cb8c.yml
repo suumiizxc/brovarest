@@ -1,7 +1,7 @@
 _id: req_1bce90b8fbd34218828b452a4791cb8c
 type: Request
 parentId: wrk_634546ce32a24c6582179aee5e6ceedd
-modified: 1694721708263
+modified: 1694740027616
 created: 1694715972811
 url: "{{ _.localhost }}/api/users/create-training-class"
 name: Create training class
@@ -19,7 +19,7 @@ parameters: []
 headers:
   - id: pair_8665c03cffd642ffbfc41512e378cc3e
     name: Authorization
-    value: 659fb95a-0867-4e55-bb1e-d1fd4bd04d57
+    value: d40cf7dc-8f3c-4467-aabb-df8cd9ff4ecc
     description: ""
   - name: Content-Type
     value: application/json
